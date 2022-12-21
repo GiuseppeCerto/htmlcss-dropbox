@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 300;
+    font-size: 15px;
 }
 img{
     width: 100%;
@@ -16,7 +17,6 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
 }
 
 /*********** HEADER **********/
@@ -30,26 +30,29 @@ a{
 
 .sezione-navigazione-1{
     display: flex;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 0px 20px 20px;
     align-items: center;
 }
 
 .sezione-navigazione-2{
     display: flex;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 20px 20px 0px;
     align-items: center;
 }
-
 .container-pulsanti-navbar{
     display: flex;
     font-weight: 300;
 }
 
-.pulsanti-navbar{
+.pulsanti-navbar > a{
     padding: 5px 15px 5px 15px;
 }
 
-.container-pulsanti-navbar > .pulsante-blu{
+.pulsanti-navbar > a{
+    color: black;
+}
+
+.bottone-blu > a{
     background-color: rgba(0,97,255,255);
     color: white;
 }
@@ -119,7 +122,7 @@ a{
     font-weight: 300;
 }
 
-.icona-hero{
+.icona-hero > i{
     margin-top: 35px;
     font-weight: 800;
     font-size: 40px;
@@ -137,10 +140,10 @@ a{
     margin: 0 auto;
 }
 
-.titolo-business{
+.titolo-business > h2{
     margin-top: 100px;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 27px;
     margin-bottom: 50px;
 }
 
@@ -163,6 +166,7 @@ a{
     flex-basis: 30%;
     margin-top: 35px;
     border: 1px  solid rgba(208,208,211,255);
+    height: 900px;
     margin-bottom: 40px;
 }
 
@@ -225,7 +229,74 @@ a{
     padding: 5px 0px 5px 0px;
     margin-bottom: 25px;
 }
+
 .link-acquista-ora{
     color: rgba(127,65,240,255);
     text-decoration: underline;
+}
+
+.margine-card{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.punti-salienti-card{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.check-testo{
+    padding-bottom: 20px;
+}
+
+.check-card{
+    color: blue;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/********* CARD VERTICALE ************/
+
+.sezione-card-orizontale{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card-orizontale{
+    border: 1px  solid rgba(208,208,211,255);
+    flex-grow: 1;
+}
+
+.corpo-card-orizontale{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.superiore-card-orizontale{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.titolo-card-orizontale{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contatto-card-orizontale{
+    font-weight: 500;
+}
+
+.bottone-contattaci > a{
+    padding:  5px 15px 5px 15px;
+    margin-bottom: ;
+}
+
+.inferiore-card-orizontale{
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
