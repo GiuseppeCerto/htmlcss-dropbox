@@ -127,6 +127,6 @@ a{
 }
 
 .contenitore-immagine-hero{
-    width: 665px;
-    height: 388px;
+    display: flex;
+    flex-basis: 70%;
 }
