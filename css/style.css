@@ -3,21 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 12px;
 }
+
 img{
     width: 100%;
 }
+
 ul,
 li{
     list-style: none;
 }
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
+
 
 /*********** HEADER **********/
 
@@ -32,6 +37,10 @@ a{
     display: flex;
     padding: 20px 0px 20px 20px;
     align-items: center;
+}
+
+.logo{
+    width: 90px;
 }
 
 .sezione-navigazione-2{
@@ -58,8 +67,8 @@ a{
 }
 
 
-
 /***********  MAIN HERO ************/
+
 
 .background-sezione-hero{
     background-color: rgba(180,208,231,255);
@@ -133,7 +142,9 @@ a{
     flex-basis: 70%;
 }
 
+
 /********* SEZIONE TITOLO E RADIO BUTTON **********/
+
 
 .sezione-titolo-radio-business{
     max-width: 850px;
@@ -153,7 +164,9 @@ a{
     margin-right: 50px;
 }
 
-/********** SEZIONE CARD **********/
+
+/********** SEZIONE CARD VERTICALE **********/
+
 
 .sezione-card-verticali{
     max-width: 850px;
@@ -166,7 +179,7 @@ a{
     flex-basis: 30%;
     margin-top: 35px;
     border: 1px  solid rgba(208,208,211,255);
-    height: 900px;
+    height: 800px;
     margin-bottom: 40px;
 }
 
@@ -175,6 +188,10 @@ a{
     border-bottom: 1px  solid rgba(208,208,211,255);
     text-align: center;
     padding: 10px 0px 10px 0px;
+}
+
+.icona-intestazione-card{
+    font-size: 13px;
 }
 
 .corpo-card-verticale{
@@ -186,7 +203,7 @@ a{
 
 .titolo-card{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px 0px 20px 0px;
 
 }
@@ -202,12 +219,12 @@ a{
 }
 
 .numero-utenze-card > i{
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 15px;
 }
 
 .spazio-cloud-card > i{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .spazio-cloud-card{
@@ -215,7 +232,7 @@ a{
 }
 
 .funzioni-card > i{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .funzioni-card{
@@ -256,13 +273,15 @@ a{
     margin-bottom: 20px;
 }
 
-/********* CARD VERTICALE ************/
+
+/********* SEZIONE CARD ORIZONTALE ************/
+
 
 .sezione-card-orizontale{
     max-width: 850px;
     margin: 0 auto;
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 110px;
 }
 
 .card-orizontale{
@@ -283,12 +302,16 @@ a{
 
 .titolo-card-orizontale{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
+}
+.nome-piano-orizontale{
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .contatto-card-orizontale{
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .bottone-contattaci > a{
@@ -296,6 +319,59 @@ a{
 }
 
 .inferiore-card-orizontale{
-    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
     margin-bottom: 30px;
+}
+
+.testo-inferiore-card{
+    flex-basis: 70%;
+}
+
+
+/********* SEZIONE PARTNER **********/
+
+
+.sezione-partner{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.container-foto-testo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.sezione-foto-partner{
+    flex-basis: 60%;
+}
+
+.sezione-titolo-testo-partner{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.titolo-sezione-partner{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.test-sezione-partner{
+    margin-bottom: 30px;
+}
+
+.bottone-sezione-partner{
+    padding: 10px 15px 10px 15px;
+    border:  1px  solid black;
+    width: fit-content;
+}
+
+.bottone-sezione-partner > a{
+    color: black;
 }
