@@ -441,3 +441,105 @@ a{
 
 
 /*********** SEZIONE CLIENTI ***********/
+
+
+.sezione-clienti{
+    max-width: 100%;
+}
+
+.container-immagini-clienti{
+    display: flex;
+}
+
+.immagini-1{
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sfondo-foto-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.immagine-2-testo{
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.immagini-3{
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sfondo-foto-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
+
+.sfondo-foto-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgba(209,233,205,255);
+    background-color: rgba(162,211,155,255);
+    width: calc(100% / 6)
+}
