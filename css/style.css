@@ -72,7 +72,7 @@ a{
 
 .background-sezione-hero{
     background-color: rgba(180,208,231,255);
-    padding-bottom: 30px;
+    margin-bottom: -30px;
 }
 
 .sezione-principale-hero{
@@ -100,12 +100,12 @@ a{
 
 .contenitore-immagine-testo-hero{
     display: flex;
+    margin-bottom: -65px;
 }
 
 .contenitore-testo-hero{
     display: flex;
     flex-basis: 30%;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -126,13 +126,17 @@ a{
     color: white;
 }
 
+.bottone-hero > a{
+    color: white;
+}
+
 .testo-piccolo-hero{
     margin-top: 25px;
     font-weight: 300;
 }
 
 .icona-hero > i{
-    margin-top: 35px;
+    margin-top: 65px;
     font-weight: 800;
     font-size: 40px;
 }
@@ -152,7 +156,7 @@ a{
 }
 
 .titolo-business > h2{
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: 700;
     font-size: 27px;
     margin-bottom: 50px;
@@ -177,10 +181,10 @@ a{
 
 .card-verticale{
     flex-basis: 30%;
-    margin-top: 35px;
-    border: 1px  solid rgba(208,208,211,255);
-    height: 800px;
+    margin-top: 35px;    
     margin-bottom: 40px;
+    padding-bottom: 40px;
+    border: 1px  solid rgba(208,208,211,255);
 }
 
 .intestazione-card{
@@ -197,8 +201,9 @@ a{
 .corpo-card-verticale{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .titolo-card{
@@ -233,6 +238,7 @@ a{
 
 .funzioni-card > i{
     font-size: 12px;
+
 }
 
 .funzioni-card{
@@ -247,7 +253,7 @@ a{
     margin-bottom: 25px;
 }
 
-.link-acquista-ora{
+.link-acquista-ora > a{
     color: rgba(127,65,240,255);
     text-decoration: underline;
 }
@@ -260,11 +266,11 @@ a{
 
 .punti-salienti-card{
     font-weight: 700;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .check-testo{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .check-card{
