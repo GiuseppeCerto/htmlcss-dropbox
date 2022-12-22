@@ -447,99 +447,112 @@ a{
     max-width: 100%;
 }
 
-.container-immagini-clienti{
+.container-loghi-clienti{
     display: flex;
 }
 
-.immagini-1{
+.insieme-loghi{
     flex-basis: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-.sfondo-foto-1{
+.logo-cliente{
+    min-height: 243px;
+}
+
+.logo-cliente > img{
+    width: calc(100% / 2);
+    filter: invert(100);
+}
+.logo-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
+    border: 13px solid rgba(209,233,205,255);
     background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    width: calc(100% / 2);
 }
 
-.sfondo-foto-2{
+.logo-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    background-color: rgba(97,8,43,255);
+    width: calc(100% / 2);
 }
 
-.sfondo-foto-3{
+.logo-3{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    background-color: rgba(0,147,206,255);
+    width: calc(100% / 2);
 }
 
-.sfondo-foto-4{
+.logo-4{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    background-color: rgba(255,28,28,255);
+    width: calc(100% / 2);
 }
 
-.immagine-2-testo{
-    flex-basis: calc(100% / 3);
+.logo-testo-centrale{
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(245,245,245,255);
 }
 
-
-
-
-.immagini-3{
-    flex-basis: calc(100% / 3);
-    display: flex;
-    flex-wrap: wrap;
+.logo-testo-centrale > img{
+    width: calc(100% / 2);
 }
 
-.sfondo-foto-6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+.logo-centrale{
+    width: calc(100% / 2);
+    margin: 30px 30px 0px 30px;
 }
 
-.sfondo-foto-7{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+.bordo-centrale{
+    color: rgba(208,208,211,255);
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100px;
 }
 
-.sfondo-foto-8{
+.testo-logo-cliente {
+    margin: 30px 30px 0px 30px;
+}
+
+.logo-6{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    background-color: rgba(213,0,31,255);
+    width: calc(100% / 2);
 }
 
-.sfondo-foto-9{
+.logo-7{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid rgba(209,233,205,255);
-    background-color: rgba(162,211,155,255);
-    width: calc(100% / 6)
+    background-color: rgba(180,208,231,255);
+    width: calc(100% / 2);
+}
+
+.logo-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13,36,129,255);
+    width: calc(100% / 2);
+}
+
+.logo-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,216,48,255);
+    width: calc(100% / 2);
 }
