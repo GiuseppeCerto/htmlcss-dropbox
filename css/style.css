@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 img{
@@ -243,10 +243,6 @@ a{
 
 .funzioni-card{
     margin-bottom: 30px;
-}
-
-.funzioni-card-spazio{
-    margin-bottom: 47px;
 }
 
 .bottone-card {
@@ -643,10 +639,44 @@ a{
     border-top: 1px solid black;
 }
 
-..domanda-tendina > .domande{
+.domande{
     font-weight: 600;
 }
 
 .contenitore-domande-tendina:last-child{
     border-bottom: 1px solid black;
 }
+
+
+/********** SEZIONE FOOTER ************/
+
+
+footer{
+    background-color: black;
+}
+
+.sezione-footer{
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contenitore-liste-footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titolo-lista-footer{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.elemento-lista{
+    color: white;
+    line-height: 30px;
+}
+
