@@ -245,6 +245,10 @@ a{
     margin-bottom: 30px;
 }
 
+.funzioni-card-spazio{
+    margin-bottom: 47px;
+}
+
 .bottone-card {
     background-color: rgba(0,97,255,255);
     color: white;
@@ -555,4 +559,94 @@ a{
     align-items: center;
     background-color: rgba(255,216,48,255);
     width: calc(100% / 2);
+}
+
+
+/************ SEZIONE AZIENDA *************/
+
+
+.sezione-azienda{
+    background-color: rgba(180,208,231,255);
+}
+
+.container-azienda{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0px 100px 0px;
+}
+
+.container-testo-azienda{
+    flex-basis: 50%;
+}
+
+.container-testo-azienda > h2{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.container-bottone-azienda{
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.bottone-azienda{
+    color: black;
+    font-weight: 300;
+    padding: 8px 40px 8px 40px;
+    background-color: white;
+    height: fit-content;
+}
+
+
+/*********** SEZIONE DOMANDE **********/
+
+
+.sezione-domande{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.contenitore-principale-domande{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.titolo-domande > h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.contenitore-domande-tendine{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenitore-domande-tendina{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.domanda-tendina{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 45px 30px 0px;
+    border-top: 1px solid black;
+}
+
+..domanda-tendina > .domande{
+    font-weight: 600;
+}
+
+.contenitore-domande-tendina:last-child{
+    border-bottom: 1px solid black;
 }
