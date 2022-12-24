@@ -136,7 +136,7 @@ a{
 }
 
 .icona-hero > i{
-    margin-top: 65px;
+    margin-top: 50px;
     font-weight: 800;
     font-size: 40px;
 }
@@ -181,8 +181,7 @@ a{
 
 .card-verticale{
     flex-basis: 30%;
-    margin-top: 35px;    
-    margin-bottom: 40px;
+    margin: 35px 0px;    
     padding-bottom: 40px;
     border: 1px  solid rgba(208,208,211,255);
 }
@@ -194,18 +193,39 @@ a{
     padding: 10px 0px 10px 0px;
 }
 
-.icona-intestazione-card{
+.icona-card{
     font-size: 13px;
+}
+
+.icona-card > i{
+    margin-right: 3px;
+    flex-basis: 15px;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .corpo-card-verticale{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
 }
 
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-flex > li{
+    display: flex;
+    gap: 5px;
+}
+
+.card-flex > li i{
+    flex-basis: 15px;
+    padding-top: 3px;
+}
 .titolo-card{
     font-weight: 600;
     font-size: 20px;
@@ -213,44 +233,38 @@ a{
 
 }
 .prezzo-card{
-    margin-bottom: 10px;
     font-weight: 700;
 }
 
 .periodo-prezzo-card{
     font-weight: 300;
-    margin-bottom: 40px;
     color: rgba(164,172,185,255);
 }
 
-.numero-utenze-card > i{
+.numero-utenze-card > i{                            
     font-size: 12px;
-    margin-bottom: 15px;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .spazio-cloud-card > i{
     font-size: 12px;
-}
-
-.spazio-cloud-card{
-    margin-bottom: 15px;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .funzioni-card > i{
     font-size: 12px;
-
-}
-
-.funzioni-card{
-    margin-bottom: 30px;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .bottone-card {
+    display: flex;
+    justify-content: center;
     background-color: rgba(0,97,255,255);
     color: white;
-    text-align: center;
     padding: 5px 0px 5px 0px;
-    margin-bottom: 25px;
 }
 
 .link-acquista-ora > a{
@@ -258,27 +272,24 @@ a{
     text-decoration: underline;
 }
 
-.bordo-interno-card{
-    font-size: 1px;
-    width: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: rgba(208,208,211,);
-}
-
 .punti-salienti-card{
     font-weight: 700;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
-.check-testo{
-    margin-bottom: 20px;
+.punti-salienti-card::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 50px;
+    background-color: rgba(208,208,211,255);
+    margin-bottom: 35px;
 }
-
 .check-card{
     color: blue;
     font-size: 15px;
-    margin-bottom: 20px;
 }
 
 
@@ -458,7 +469,7 @@ a{
 }
 
 .logo-cliente{
-    min-height: 243px;
+    aspect-ratio: 1;
 }
 
 .logo-cliente > img{
@@ -665,7 +676,6 @@ footer{
 .contenitore-liste-footer{
     display: flex;
     justify-content: space-between;
-
 }
 
 .titolo-lista-footer{
