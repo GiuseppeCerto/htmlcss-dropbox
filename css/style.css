@@ -722,7 +722,12 @@ footer{
     margin-top: 30px;
 }
 
-.lingua > span > i{
+.selezione-lingua > a{
+    color: rgba(164,172,185,255);
+}
+
+.selezione-lingua > a > i{
+    color: rgba(164,172,185,255);
     font-size: 11px;
     margin-left: 2px;
     margin-top: 1px;
